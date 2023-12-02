@@ -9,7 +9,10 @@ export const metadata: Metadata = {
   description: 'Developer, Designer, and Creator. I love working with React and Next.js',
   metadataBase: new URL('https://dev.price.calculator.vercel.app'),
   openGraph: {
-    images: '/logobhwbb.svg',},
+    title: 'Bogdan Helerea - Full Stack Developer',
+    description: 'Developer, Designer, and Creator. I love working with React and Next.js',
+    siteName: 'Bogdan Helerea - Full Stack Developer',
+    images: '/logobhwbb.svg'},
 }
 
 export default function RootLayout({
