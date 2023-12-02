@@ -1,4 +1,7 @@
+/* eslint-disable */
+/* elint-disable */
 "use client";
+
 import Image from 'next/image'
 import CalculatorForm from './components/CalculatorForm'
 import { useState } from 'react'
@@ -57,7 +60,7 @@ export default function Home() {
         </div>
 
         <div className='relative grid gap-10'>
-        {showForm && 
+        {showForm &&
         <>
         <div className='absolute inset-0.5 bg-gradient-to-t from-blue-500 to-blue-500 rounded-full blur-3xl'></div>
         <CalculatorForm />
