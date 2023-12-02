@@ -7,12 +7,12 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Bogdan Helerea - Full Stack Developer',
   description: 'Developer, Designer, and Creator. I love working with React and Next.js',
-  metadataBase: new URL('https://dev.price.calculator.vercel.app'),
+  metadataBase: new URL('https://dev-price-calculator.vercel.app'),
   openGraph: {
     title: 'Bogdan Helerea - Full Stack Developer',
     description: 'Developer, Designer, and Creator. I love working with React and Next.js',
     siteName: 'Bogdan Helerea - Full Stack Developer',
-    images: '/logobhwbb.svg'},
+    images: '/public/logobhwbb.svg'},
 }
 
 export default function RootLayout({
