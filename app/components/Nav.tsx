@@ -27,7 +27,7 @@ function Nav() {
 
     return (
         <div className="relative">
-        <div className={header ? " fixed top-0 w-[100%] bg-gradient-to-b from-blue-950 via-slate-950 to-slate-950 border" : "bg-[transparent]"}>
+        <div className={header ? " fixed top-0 w-[100%] shadow-sm shadow-slate-900/50 border-b rounded-b-lg backdrop-blur-md" : "bg-[transparent]"}>
         <div className="header relative flex w-[80%] justify-between m-auto py-[15px]">
         <Image
             className="relative"
