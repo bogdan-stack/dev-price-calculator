@@ -55,9 +55,9 @@ export default function Home() {
             <CardContent className="md:pt-6 sm:pt-0">
               <div className="relative ">
                 <div className="absolute inset-4  bg-blue-900 rounded-full blur-2xl"></div>
-                <Avatar className=" relative w-40 h-40 drop-shadow-lg">
+                <Avatar className=" relative w-40 h-40 border-2 border-blue-500 bg-blue-100">
                   <AvatarImage
-                    className="relative drop-shadow-lg"
+                    className="relative drop-shadow-2xl"
                     src="/profil.png"
                   />
                   <AvatarFallback>HB</AvatarFallback>
